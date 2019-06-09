@@ -1,5 +1,5 @@
 <?php
 
-	$connect = new mysqli("localhost", "root", "", "aqins");
+	$connect = new mysqli("localhost", "root", "", "atiket");
 
 ?>
