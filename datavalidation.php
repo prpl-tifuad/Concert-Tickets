@@ -54,6 +54,7 @@
   <link href="css/business-casual.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="style_pesan.css">
 	<script src="formvalidation.js"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <style>
     .caption{
       color: azure;
@@ -81,26 +82,31 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav mx-auto">
           <li class="nav-item active px-lg-4">
-            <a class="nav-link text-uppercase text-expanded" href="index.html">Home
+            <a class="nav-link text-uppercase text-expanded" href="index.php">Concert
               <span class="sr-only">(current)</span>
             </a>
           </li>
           <li class="nav-item px-lg-4">
+            <a class="nav-link text-uppercase text-expanded" href="venue.php">Venue</a>
+          </li>
+          <li class="nav-item px-lg-4">
             <a class="nav-link text-uppercase text-expanded" href="about.html">About Us</a>
-          </li>
-          <li class="nav-item px-lg-4">
-            <a class="nav-link text-uppercase text-expanded" href="concert.html" >Concert</a>
-          </li>
-          <li class="nav-item px-lg-4">
-            <a class="nav-link text-uppercase text-expanded" href="venue.html">Venue</a>
           </li>
           
           <li class="nav-item px-lg-4">
             <!-- <a class="nav-link text-uppercase text-expanded" >Search</a> -->
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <form class="form-inline my-2 my-lg-0"  method="get" action="index.php">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search..." aria-label="Search" name="cari" >
                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
             </form>          
+          </li>
+          <li class="nav-item px-lg-4">
+            <!-- <a class="nav-link text-uppercase text-expanded" >Search</a> -->
+            <a class="nav-link text-uppercase text-expanded" href="login.html">
+              <i class="large material-icons" >account_circle</i>
+              Admin Login     
+            </a>  
+             
           </li>
         </ul>
       </div>
@@ -233,18 +239,16 @@
 </div>
 		  <div class="row">
             <div class="col1">
-            
-            </div>
-            <div class="col2">
-            	<label>Bayar Melalui : </label>
-              	<div class="button">
-					<button id="yes">TRANSFER</button>
-					<button id="no">INDOMARET</button>
-				</div>
+              <label>
+              <h5>SILAKAN TRANSFER PEMBAYARAN KE NOMOR REKENING DI BAWAH INI</h5>
+              <P>01234567890 BNI a.n Q'INs Entertaintment</P>
+          
+              <p>Batas Pembayaran 24 jam</p>
+            </label>
             </div>
           </div>
 <div>
-  <br><br><br>
+  <br><br><br><br><br><br>
 </div>
   <footer class="footer text-faded text-center py-5">
     <div class="container">
