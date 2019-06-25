@@ -103,10 +103,13 @@
         <a class="nav-link" href="inputtiket.php">
         <i class="large material-icons" >note</i>
           <span>Ticket</span></a>
-        
       </li>
 
-      
+      <li class="nav-item">
+        <a class="nav-link" href="tampilpembelian.php">
+        <i class="large material-icons" >payment</i>
+          <span>Payment</span></a>
+	  </li>
 
     </ul>
     <!-- End of Sidebar -->
